@@ -7,7 +7,7 @@ description: Some description.
 permalink: /aboutme/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.jpg" alt="Horacio M." width="200">
+<img class="img-rounded" src="/assets/img/uploads/profile.jpg" alt="Horacio M." width="300">
 
 # About me
 
