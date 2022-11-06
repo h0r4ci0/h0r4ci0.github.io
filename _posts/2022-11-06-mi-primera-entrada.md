@@ -17,8 +17,6 @@ author: h0r4ci0
 paginate: true
 ---
 
-![portada](http://telegra.ph/file/cb862dc3caf7d1bad3c18.jpg)
-
 ## Introducción.
 
 Antes de nada, quiero daros la bienvenida.
