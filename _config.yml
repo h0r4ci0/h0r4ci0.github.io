@@ -29,12 +29,9 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: h0r4ci0
+twitter_username: HoracioManuelL2
+# linkedin_username: linkedin_username
 
 
 # Posts Settings
