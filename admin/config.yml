@@ -40,7 +40,7 @@ collections:
       - label: "Publish Date"
         name: "date"
         widget: "datetime"
-        format: "YYYY-MM-DD HH:mm:ss"
+        format: "DD-MM-YYYY HH:mm:ss"
       - label: "Layout"
         name: "layout"
         widget: "hidden"

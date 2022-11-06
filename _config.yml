@@ -1,8 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Un pingüino curioso
+title: Un pingüino curioso | Un blog escrito por Horacio M.
+description: Un pingüino curioso es un blog en el que se tratan temas sobre informática. ¡Espero que os guste!
 tags:
   - blog
   - template
@@ -19,12 +18,15 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: horamalean@protonmail.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+# disqus_username: disqus_username
 # Contact Form Setting
 # See: https://formspree.io/
 formspree_form_id: formspree_form_id
+
+# Theme
+# version: v1.0.0 
 
 
 # Social Media Settings
@@ -45,7 +47,7 @@ two_columns_layout: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
-language: "en"
+language: "es"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
@@ -102,4 +104,4 @@ exclude: [
 ]
 
 # Theme
-version: v3.1.2
+# version: v3.1.2
