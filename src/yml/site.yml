@@ -11,8 +11,8 @@ show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
-    url: /about
+  - title: About me
+    url: /aboutme
   - title: Contact
     url: /contact
   - title: Feed
