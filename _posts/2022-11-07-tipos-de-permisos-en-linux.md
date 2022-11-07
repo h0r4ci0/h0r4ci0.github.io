@@ -45,6 +45,10 @@ de 1ºESO, puedan acceder a la carpeta de 1ºESO.
 - **Permisos del resto de usuarios:** Por último, pero no menos importante, tenemos los permisos de aquellos usuarios que no sean propietarios o pertenezcan a un grupo específico.
 Es decir, los permisos de otros.
 
+---
+
+## Estructura de permisos.
+
 Vale, muy bien todo esto, pero ¿cómo puedo saber que permisos tienen los archivos?
 
 Pues mi sencillo, con el comando `ls -l` o `ls --long`.
@@ -53,11 +57,107 @@ Ambos son los mismos parámetros solo que uno es la versión contraída y otro l
 
 > Si quieres ver los permisos de archivos ocultos tendrás que añadir el parámetro -a o --all. `ls -la` o `ls --long --all`
 
-![ls -l](http://telegra.ph/file/0deebdc8b0dc870600fe2.jpg)
+![ls -l](http://telegra.ph/file/393e180dcbaa93a5373fa.jpg)
 
 - 🔴​ En la primera columna podemos ver los permisos asignados.
 - 🟡​ En la segunda columna podemos ver el usuario propietario.
 
+Como hemos podido observar, los permisos tienen la siguiente estructura:
+
+![estructura de los permisos](https://computernewagedotcom.files.wordpress.com/2015/06/representacion-permisos-en-linux1.png)
+
+### Tipo de fichero.
+
+Esta información la encontraremos en la primera columna de la estructura de los permisos y nos muestra el tipo de archivo que es.
+
+| Identificador | Información |
+| ------- | ----------- |
+| -       | Archivo |
+| b | Archivo de bloques especiales |
+| c | Archivo de caracteres especiales |
+| d | Directorio |
+| l | Vínculo o enlace |
+| p | Pipes (_tuberías_) |
+
+Los más comunes son **-** y **d**.
+
+### Tipos de permisos básicos.
+
+| Permiso | Información |
+| ------- | ----------- |
+| - | Sin permiso |
+| r | Permiso de lectura (read)|
+| w | Permiso de escritura (write)|
+| x | Permiso de ejecución (execute)|
+
+- **Lectura (r) ->** Si este permiso está presente indica que podremos leer el contenido de un archivo.
+- **Escritura (w) ->** Si este permiso está presente indica que podremos modificar el contenido de un archivo.
+- **Ejecución (x) ->** Si este permiso está presente indica que podremos ejecutar el archivo. Generalmente este permiso se aplica a archivos ejecutables como scripts o programas.
+
+> ⚠️ OJO! En el caso de querer que una carpeta sea visible, no bastará con que tenga el permiso de lectura, también tendrá que tener el de ejecución.
+> Si solo aplicamos el de lectura, únicamente podremos ver que la carpeta existe, pero no podremos acceder a su contenido.
+
+---
+
+## Gestionar permisos en GNU/Linux.
+
+Una vez que sepamos identificar los distintos permisos, vamos a aplicarlos a un archivo.
+
+Ahora abriremos nuestra consola y crearemos un archivo llamado prueba.md _el nombre puede ser cualquiera, esto es solo un ejemplo_.
+
+`touch prueba.md`
+
+Bien, una vez creado vamos a ver que permisos tiene:
+
+`ls -l`
+
+![ls -l prueba.md](http://telegra.ph/file/a66dc8833698ac7b774af.jpg)
+
+Y podemos comprobar que el archivo 'prueba.md' tiene asignados los permisos **rw- r-- r--**
+
+Eso significa que el **propietario** tiene permisos de **lectura (r)** y **escritura (w)**, pero no de **ejecución (x)**; también podemos ver como tanto el **grupo** como **otros**,
+solo tienen permisos de **lectura (r)**.
+
+### Asignar permisos.
+
+Una vez identificados los permisos de un archivo, vamos a cambiarlos.
+
+En este caso vamos a asignarle al archivo 'prueba.md' que el **propietario** tenga permisos de **ejecución (x)** y que tanto el **grupo** como los **otros** tengan permisos
+de escritura.
+
+Nos tendrían que quedar algo así: `rwx rw- rw-`
+
+En GNU/Linux, para asignar permisos usamos el comando `chmod`, entonces para aplicar los permisos anteriormente mecionados tendríamos que ejecutar:
+
+`chmod u+x,g+w,o+w prueba.md`
+
+- La "u" es para decirle que vamos a modificar los permisos del propietario (user).
+- El "+" es para decirle que vamos a añadir permisos.
+- La "x" es el tipo de permiso que queremos asignarle. En este caso ejecución (execute).
+- La "g" es para decirle que vamos a modificar los permisos del grupo (group).
+- La "w" es el tipo de permiso que queremos asignarle. En este caso escritura (write).
+- La "o" es para decirle que vamos a modificar los permisos de otros (others).
+
+> ℹ️ Cuando usamos el comando `chmod` para asignar varios permisos, tenemos que separar cada asignación por una coma.
+
+Este sería el resultado:
+
+![asignando permisos](http://telegra.ph/file/544cbe9e9fb2a8d85c77a.jpg)
+
+Ahora si quisiéramos quitar permisos, lo único que tendríamso que cambiar es el "+" por un "-".
+
+Por ejemplo, vamos a quitar todos los permisos de **otros**. Por lo que nos tendría que quedar algo así `rwx rw- ---`
+
+Ejecutamos chmod...
+
+`chmod o-r,o-w prueba.md`
+
+![resultado quitando permisos](http://telegra.ph/file/dd26e65c7e3208bd53b15.jpg)
+
+> 💡 ¡Tip extra!
+> A la hora de asignar permisos para el propietario, es decir el user, si nosotros somos los propietaris no hace falta que escribamos `chmod u+x archivo`,
+> podemos directamente escribir `chmod +x archivo`.
+>
+> Ahorrándonos así tner que poner "u" (user).
 
 <!-- --page-break-- -->
-
