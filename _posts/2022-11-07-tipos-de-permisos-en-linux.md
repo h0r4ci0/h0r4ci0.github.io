@@ -1,5 +1,5 @@
 ---
-date: 2022-07-11T19:00:00.000Z
+date: 2022-07-11T22:00:00.000Z
 layout: post
 title: Tipos de permisos en Linux.
 subtitle: '¿Qué son y cómo funcionan los permisos en Linux?'
@@ -155,6 +155,7 @@ Ejecutamos chmod...
 ![resultado quitando permisos](http://telegra.ph/file/dd26e65c7e3208bd53b15.jpg)
 
 > 💡 ¡Tip extra!
+>
 > A la hora de asignar permisos para el propietario, es decir el user, si nosotros somos los propietaris no hace falta que escribamos `chmod u+x archivo`,
 > podemos directamente escribir `chmod +x archivo`.
 >
