@@ -20,7 +20,7 @@ Actualmente soy un estudiante de secundaria a punto de entrar a bachiller 😵�
 ## Mis inicios en la informática.
 
 Sobre los 9-10 años empecé a tocar ya ordenadores, lo básico sobre ofimática (powerpoints, excels, words, algo de google drive...).
-En aquel momento los ordenadores de mi colegio funcionaban con un sistema operativo Linux basado en Ubuntu con un escritorio XFCE
+En aquel momento los ordenadores de mi colegio funcionaban con un sistema operativo Linux basado en Debian con un escritorio XFCE
 (o algo parecido, ya que en aquel momento no entedía nada de Linux y todo esto lo digo por lo que recuerdo de como era). Era un SO
 bastante cutre que no tenía prácticamente nada, se colgaba bastante, tardaba en arrancar... Pero aislado a todos los problemas, tenía
 un programa que se llamaba "Epoptes", básicamente era una aplicación de control de aula o control remote (una especie de TeamViewer o AnyDesk)
