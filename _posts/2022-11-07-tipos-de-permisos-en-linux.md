@@ -144,7 +144,7 @@ Este sería el resultado:
 
 ![asignando permisos](http://telegra.ph/file/544cbe9e9fb2a8d85c77a.jpg)
 
-Ahora si quisiéramos quitar permisos, lo único que tendríamso que cambiar es el "+" por un "-".
+Ahora si quisiéramos quitar permisos, lo único que tendríamos que cambiar es el "+" por un "-".
 
 Por ejemplo, vamos a quitar todos los permisos de **otros**. Por lo que nos tendría que quedar algo así `rwx rw- ---`
 
@@ -156,9 +156,9 @@ Ejecutamos chmod...
 
 > 💡 ¡Tip extra!
 >
-> A la hora de asignar permisos para el propietario, es decir el user, si nosotros somos los propietaris no hace falta que escribamos `chmod u+x archivo`,
+> A la hora de asignar permisos para el propietario, es decir el user, si nosotros somos los propietarios no hace falta que escribamos `chmod u+x archivo`,
 > podemos directamente escribir `chmod +x archivo`.
 >
-> Ahorrándonos así tner que poner "u" (user).
+> Ahorrándonos así tener que poner "u" (user).
 
 <!-- --page-break-- -->

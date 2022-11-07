@@ -54,7 +54,7 @@ Una vez estaba dentro, empecé a enviar mensajitos a mis compañeros y a alguno 
 de críos, que es lo que éramos. Hasta que un día petó. Básicamente se apagaron todos los ordenadores al mismo tiempo. Por lo que pude deducir, si dos ordenadores se aplicaban un bloqueo
 mútuo a la vez (PC¹ 🔐​➡️​ PC² y PC² 🔐​➡️​ PC¹) colapsaban el programa y apagaba todos los ordenadores al mismo tiempo.
 
-No quiero extender más esta página sobre mí, pero a raíz de esto fui investigando y curioseando por internet y aprendiendo basntantes cosas hasta el día de hoy.
+No quiero extender más esta página sobre mí, pero a raíz de esto fui investigando y curioseando por internet y aprendiendo bastantes cosas hasta el día de hoy.
 
 Y una cosa que siempre me ha gustado hacer, sobre todo desde estos últimos meses, es divulgar contenido sobre informática a la gente. Y esto es uno de los pilares de mi blog.
 
