@@ -32,7 +32,7 @@ Bien, pues fui investigando y entonces es cuando aplicando unas técnicas avanza
 un profesor ejecutaba un programa con el que nos bloqueba. Este era el antes mencionado "Epoptes". Yo todo feliz, fui a mi ordenador, abrí el buscador de aplicaciones
 y busque "Epoptes", y ahí estaba, lo ejecuté y UPS, me pedía usuario y contraseña. Yo en ese momento me viene un poco abajo, pero no me di por vencido.
 
-Durante los siguientes días, estuve buscando información sobre Epoptes, en aquel entonces tenía un portátil compartido con mi familia que corría Windows XP a duras penas.
+Durante los siguientes días, estuve buscando información sobre Epoptes, en aquel entonces tenía un portátil compartido con mi familia que corría Windows XP.
 Empecé a buscar en Microsoft Explorer "Epoptes" pero prácticamente no había nada de información. En ese momento dejé de lado Epoptes y no recuerdo cómo, pero encontré el programa
 TeamViewer. En aquella época yo no tenía ni idea de cómo bajar aplicaciones, así que probé de todo (menos buscar en internet cómo hacerlo 😁​) y a los pocos minutos
 conseguí instalarlo y ejecutarlo. Ahora solo me faltaba un segundo ordenador, cosa que no tenía, así que abandoné.
