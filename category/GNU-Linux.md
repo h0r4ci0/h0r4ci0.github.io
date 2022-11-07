@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Blog
-slug: blog
-description: A category for general blog posts.
+title: GNU/Linux
+slug: gnu-linux
+description: Una categoría para artículos relacionados con GNU/Linux.
 ---
 
