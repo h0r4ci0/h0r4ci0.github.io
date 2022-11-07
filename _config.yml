@@ -4,10 +4,11 @@ title: Un pingüino curioso | Un blog escrito por Horacio M.
 description: Un pingüino curioso es un blog en el que se tratan temas sobre informática. ¡Espero que os guste!
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - Linux
+  - Pingüino
+  - GNU/Linux
+  - h0r4ci0
+  - Un pingüino curioso
 show_hero: true
 menu:
   - title: Home
