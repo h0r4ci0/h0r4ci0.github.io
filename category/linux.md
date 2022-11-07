@@ -1,7 +1,7 @@
 ---
 layout: category
-title: GNU/Linux
-slug: gnu-linux
+title: Linux
+slug: linux
 description: Una categoría para artículos relacionados con GNU/Linux.
 ---
 
