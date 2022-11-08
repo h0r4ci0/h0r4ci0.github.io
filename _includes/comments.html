@@ -2,7 +2,7 @@
 
 <section class="comments">
     <h3>{{ site.translations.text.comments | default: "Comments" }}</h3>
-    <div id="dsq-counter-scr"></div>
+    <div id="disqus_thread"></div>
 </section>
 <script type="text/javascript">
     var disqus_loaded = false;
@@ -10,11 +10,11 @@
     function load_disqus()
     {
         disqus_loaded = true;
-        var disqus_shortname = '{{un-pinguino-curioso}}';
+        var disqus_shortname = '{{site.disqus_username}}';
         var disqus_title = '{{page.title.replace("'", "\\'")}}';
-        var disqus_url = '{{https://un-pinguino-curioso.disqus.com}}';
+        var disqus_url = '{{page.url}}';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = "//un-pinguino-curioso.disqus.com/count.js";
+        dsq.src = '//un-pinguino-curioso.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         var ldr = document.getElementById('disqus_loader');
     };
