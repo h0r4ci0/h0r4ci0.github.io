@@ -4,7 +4,7 @@ layout: post
 title: ¡Mi primera entrada en este blog!
 subtitle: 'Una breve descripción y objetivo del blog'
 description: >-
-  El primer artículo de **Un pingüino curioso**.
+  El primer artículo de Un pingüino curioso.
 image: >-
   http://telegra.ph/file/cb862dc3caf7d1bad3c18.jpg
 optimized_image: >-
