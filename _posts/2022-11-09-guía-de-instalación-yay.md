@@ -23,7 +23,7 @@ paginate: true
 
 ## ¿Qué es Yay?
 
-Es bastante probable que si usas Arch Linux o lo has llegado a usar, conzcas que es *pacman*. Bien, si no es así, *pacman* es un gestor de paquetes propio de Arch Linux y derivadas
+Es bastante probable que si usas Arch Linux o lo has llegado a usar, conozcas que es *pacman*. Si no es así, *pacman* es un gestor de paquetes propio de Arch Linux y derivadas
 que nos permite descargar paquetes de repositorios.
 
 Vale, pues yay es algo parecido. Pero antes de entrar con yay vamos a ver lo que es AUR.
@@ -42,7 +42,7 @@ de ejecutar su comando y escribir "y" para continuar.
 
 ## Instalación de Yay.
 
-1. Lo primero que necesitaremos será instalar los paquetes `base-devel` y `git`. Es bastante probable que ya los tengáis, pero en caso contrario:
+1.- Lo primero que necesitaremos será instalar los paquetes `base-devel` y `git`. Es bastante probable que ya los tengáis, pero en caso contrario:
 
 ```bash
   sudo pacman -S base-devel
@@ -50,7 +50,7 @@ de ejecutar su comando y escribir "y" para continuar.
   sudo pacman -S git
 ```
 
-2. Ahora instalaremos Yay.
+2.- Ahora instalaremos Yay.
 
 ```bash
   cd /opt/
@@ -58,7 +58,7 @@ de ejecutar su comando y escribir "y" para continuar.
   sudo git clone https://aur.archlinux.org/yay.git
 ```
 
-3. En este paso cambiaremos el propietario del directorio ya que la instalación la hemos realizado con *sudo*.
+3.- En este paso cambiaremos el propietario del directorio ya que la instalación la hemos realizado con *sudo*.
 
 ```bash
   sudo chown -R $USER:users yay/
@@ -67,7 +67,7 @@ de ejecutar su comando y escribir "y" para continuar.
 > ℹ️ En el caso de tener porblemas con la variable de entorno *$USER*, sustitúyela por tu nombre de usuario.
 > Para consultarlo puedes usar el comando `whoami`
 
-4. Ahora nos tocaría acceder al repositorio y compilarlo.
+4.- Ahora nos tocaría acceder al repositorio y compilarlo.
 
 ```bash
   cd yay
