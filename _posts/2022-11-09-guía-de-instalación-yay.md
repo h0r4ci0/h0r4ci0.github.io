@@ -2,7 +2,7 @@
 date: 2022-09-11T15:00:00.000Z
 layout: post
 title: Cómo instalar YAY (el asistente de AUR) en Arch Linux.
-subtitle: 'Guia de instalacióny uso de yay.'
+subtitle: 'Guia de instalación y uso de yay.'
 description: >-
   Guia sobre el asistente de AUR, yay.
 image: >-
