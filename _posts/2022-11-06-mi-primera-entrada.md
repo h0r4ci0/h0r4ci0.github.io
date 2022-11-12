@@ -42,4 +42,4 @@ Y no os digo más que si no me quedo sin página de [About me](https://h0r4ci0.g
 
 Y poco más, iré adaptando todo y comenzaré a escribir artículos. ¡Nos vemos! 👩‍💻👨‍💻
 
---page-break--
+<!-- --page-break-- -->

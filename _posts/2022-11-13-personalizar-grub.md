@@ -1,5 +1,5 @@
 ---
-date: 2022-10-13T09:00:00.000Z
+date: 2022-10-14:00:00.000Z
 layout: post
 title: 'Temas para GRUB: Personaliza tu GRUB.'
 subtitle: 'Guía para personalizar tu GRUB en Linux.'
@@ -150,4 +150,4 @@ Pues tenemos que sustituir background.png por el nombre de nuestro fondo guardad
 
 Solo faltaría reiniciar y listo.
 
---page-break--
+<!-- --page-break-- -->
