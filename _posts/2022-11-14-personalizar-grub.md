@@ -1,5 +1,5 @@
 ---
-date: 2022-10-14:00:00.000Z
+date: 2022-11-13T09:30:00.000Z
 layout: post
 title: 'Temas para GRUB: Personaliza tu GRUB.'
 subtitle: 'Guía para personalizar tu GRUB en Linux.'

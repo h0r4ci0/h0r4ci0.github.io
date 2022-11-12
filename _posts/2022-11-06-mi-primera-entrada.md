@@ -1,5 +1,5 @@
 ---
-date: 2022-06-11T20:48:05.000Z
+date: 2022-11-06T20:48:05.000Z
 layout: post
 title: ¡Mi primera entrada en este blog!
 subtitle: 'Una breve descripción y objetivo del blog'

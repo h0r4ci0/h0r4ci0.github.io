@@ -1,5 +1,5 @@
 ---
-date: 2022-07-11T22:00:00.000Z
+date: 2022-11-07T22:00:00.000Z
 layout: post
 title: Tipos de permisos en Linux.
 subtitle: '¿Qué son y cómo funcionan los permisos en Linux?'
