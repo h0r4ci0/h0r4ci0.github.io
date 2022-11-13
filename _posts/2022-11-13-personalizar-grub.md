@@ -150,4 +150,14 @@ Pues tenemos que sustituir background.png por el nombre de nuestro fondo guardad
 
 Solo faltaría reiniciar y listo.
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFYZ35HYT4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PFYZ35HYT4');
+</script>
+
 <!-- --page-break-- -->
