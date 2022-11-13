@@ -19,6 +19,16 @@ author: h0r4ci0
 paginate: true
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFYZ35HYT4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PFYZ35HYT4');
+</script>
+
 Antes de empezar quiero hacerle mención a [VandalByte](https://github.com/VandalByte) ya que los temas que veremos a continuación están creados por él.
 
 ## [Tema *Darkmatter*](https://github.com/VandalByte/darkmatter-grub2-theme).
@@ -149,15 +159,5 @@ En este archivo ubicado en `base/1920p` o `base/1440p` encontramos en la línea 
 Pues tenemos que sustituir background.png por el nombre de nuestro fondo guardado anteriormente.
 
 Solo faltaría reiniciar y listo.
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFYZ35HYT4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-PFYZ35HYT4');
-</script>
 
 <!-- --page-break-- -->
