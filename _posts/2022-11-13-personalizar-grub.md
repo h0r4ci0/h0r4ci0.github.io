@@ -4,7 +4,7 @@ layout: post
 title: 'Temas para GRUB: Personaliza tu GRUB.'
 subtitle: 'Guía para personalizar tu GRUB en Linux.'
 description: >-
-  El primer artículo de Un pingüino curioso.
+  Tutorial para personalizar tu GRUB.
 image: >-
   https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linux.png
 optimized_image: >-
