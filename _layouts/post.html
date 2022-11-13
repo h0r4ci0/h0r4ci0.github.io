@@ -6,6 +6,16 @@
         {% include svg-icons.html %}
         {% include header.html %}
 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFYZ35HYT4"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-PFYZ35HYT4');
+        </script>
+
         <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
             <article role="article" class="post-content">
                 <p class="post-info">
