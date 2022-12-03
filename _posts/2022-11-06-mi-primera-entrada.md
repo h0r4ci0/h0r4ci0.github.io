@@ -31,7 +31,7 @@ Así que ya os podéis ir haciendo una breve idea de que va ir el blog ;)
 
 ## ¿Qué es para mí este blog?
 
-Bien, este blog lo he creado por hobbie. Es algo que llevo timpo pensando en hacer y esta tarde de noviembre me he acabado decidiendo por empezar a hacer mi propio blog.
+Bien, este blog lo he creado por hobbie. Es algo que llevo tiempo pensando en hacer y esta tarde de noviembre me he acabado decidiendo por empezar a hacer mi propio blog.
 Bueno... con hacer me refiero a escribir, ya que este blog es una plantilla diseñada por [Thiago Rossener](https://github.com/thiagorossener) a la que le he hecho un fork y la he adaptado. Ya me entendéis.
 
 

@@ -12,7 +12,7 @@ optimized_image: >-
 category: linux
 tags:
   - Tutorial
-  - Guia
+  - Guía
   - Linux
   - Personalización
 author: h0r4ci0
