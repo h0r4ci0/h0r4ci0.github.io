@@ -1,5 +1,5 @@
 ---
-date: 2022-11-20T09:30:00.000Z
+date: 2024-11-20T09:30:00.000Z
 layout: post
 title: 'Elon Musk a la cabeza de Twitter.'
 subtitle: '¿Qué está pasando con Twitter?'
