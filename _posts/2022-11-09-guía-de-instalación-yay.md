@@ -15,7 +15,7 @@ tags:
   - guía
   - tutorial
   - arch
-author: h0r4ci0
+author: horacio
 paginate: true
 ---
 

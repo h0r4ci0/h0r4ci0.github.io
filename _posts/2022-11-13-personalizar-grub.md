@@ -15,7 +15,7 @@ tags:
   - guía
   - linux
   - personalización
-author: h0r4ci0
+author: horacio
 paginate: true
 ---
 

@@ -12,7 +12,7 @@ optimized_image: >-
 category: linux
 tags:
   - linux
-author: h0r4ci0
+author: horacio
 paginate: true
 ---
 

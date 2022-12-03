@@ -13,7 +13,7 @@ category: blog
 tags:
   - blog
   - actualidad
-author: h0r4ci0
+author: horacio
 paginate: true
 ---
 
