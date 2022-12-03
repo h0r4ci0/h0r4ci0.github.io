@@ -11,8 +11,8 @@ optimized_image: >-
   https://phantom-marca.unidadeditorial.es/07f536e11a9f13c85adb7271e8ab626a/resize/1320/f/jpg/assets/multimedia/imagenes/2022/10/27/16668670468984.jpg
 category: blog
 tags:
-  - Blog
-  - Actualidad
+  - blog
+  - actualidad
 author: h0r4ci0
 paginate: true
 ---

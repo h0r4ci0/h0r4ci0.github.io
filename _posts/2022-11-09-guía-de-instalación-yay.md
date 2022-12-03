@@ -11,10 +11,10 @@ optimized_image: >-
   https://pingvinus.ru/cr_images/modelImage/article/3769-teaser-rgm4bhko9r.png
 category: arch
 tags:
-  - Linux
-  - Guía
-  - Tutorial
-  - Arch
+  - linux
+  - guía
+  - tutorial
+  - arch
 author: h0r4ci0
 paginate: true
 ---

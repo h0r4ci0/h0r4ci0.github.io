@@ -11,7 +11,7 @@ optimized_image: >-
   https://www.prored.es/wp-content/uploads/2018/11/prored-bits-de-permisos-unix-permission-bits.png
 category: linux
 tags:
-  - Linux
+  - linux
 author: h0r4ci0
 paginate: true
 ---

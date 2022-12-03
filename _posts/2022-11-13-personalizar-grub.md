@@ -11,10 +11,10 @@ optimized_image: >-
   https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linux.png
 category: linux
 tags:
-  - Tutorial
-  - Guía
-  - Linux
-  - Personalización
+  - tutorial
+  - guía
+  - linux
+  - personalización
 author: h0r4ci0
 paginate: true
 ---
