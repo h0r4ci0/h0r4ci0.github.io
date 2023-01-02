@@ -11,7 +11,6 @@ optimized_image: >-
   http://telegra.ph/file/cb862dc3caf7d1bad3c18.jpg
 category: blog
 tags:
-  - welcome
   - blog
 author: horacio
 paginate: true
