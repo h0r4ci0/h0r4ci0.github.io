@@ -6,9 +6,9 @@ subtitle: 'Entiende cómo funciona la criptografía asimétrica.'
 description: >-
   Funcionamiento y uso de las claves públicas y privadas.
 image: >-
-  https://ginzo.tech/wp-content/uploads/2021/12/portada_cifrado_informacion_incibe_resultado.jpg
+  https://windowsbulletin.com/wp-content/uploads/2020/05/Asymmetrical-Encryption.png
 optimized_image: >-
-  https://ginzo.tech/wp-content/uploads/2021/12/portada_cifrado_informacion_incibe_resultado.jpg
+  https://windowsbulletin.com/wp-content/uploads/2020/05/Asymmetrical-Encryption.png
 category: cybersecurity
 tags:
   - cryptography
@@ -17,7 +17,8 @@ author: horacio
 paginate: true
 ---
 
-Actualmente la mayor parte del tráfico de internet encriptado, utiliza este sistema de criptografía basado en clave pública y clave privada.
+Actualmente la mayor parte del tráfico de internet encriptado, utiliza este sistema de criptografía basado en clave pública y clave privada. Es más ahora mismo estás haciendo
+uso de este sistema al acceder a mi blog.
 
 ## ¿Qué es la criptografía asimétrica?
 
