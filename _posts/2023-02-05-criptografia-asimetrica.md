@@ -1,5 +1,5 @@
 ---
-date: 2023-02-05T20:00:00.000Z
+date: 2023-02-05T19:30:00.000Z
 layout: post
 title: Criptografía asimétrica o criptografía de clave pública.
 subtitle: 'Entiende cómo funciona la criptografía asimétrica.'
@@ -58,7 +58,7 @@ por algo se llama "pública". Una vez que Carlos nos da su clave pública, nosot
 sentido.
 
 Otro ejemplo más. Imagina que queremos enviarle la contraseña del netflix a nuestro primo Ernesto, pero no queremos que nadie más la tenga, entonces para
-ellos vamos pedirle a Ernesto que genere sus claves y nos pase la pública. Cuando tengamos la pública, a través de unos cálculos que realizará nuestro
+ello vamos pedirle a Ernesto que genere sus claves y nos pase la pública. Cuando tengamos la pública, a través de unos cálculos que realizará nuestro
 ordenador, encriptará la contraseña de manera que de verse así `miContraseña1234Netflis` pasará a verse algo así `'��<;giHtvQ
            SHm
 a�LAezqn�-[�}
