@@ -22,13 +22,13 @@ uso de este sistema al acceder a mi blog.
 
 ## ¿Qué es la criptografía asimétrica?
 
-La criptografía asimétrica o criptografía de clave pública es un método que se basa en la creación de dos llaves, una **llave pública** y una **llave privada** para encriptar datos
+La criptografía asimétrica o criptografía de clave pública es un método que se basa en la creación de dos llaves, una **llave pública** y una **llave privada** para encriptar datos.
 Estas claves se generan a la par a través de un algoritmo matemático bastante complejo, pero de esto ya hablaremos después.
 
 
 ### Llave pública y llave privada.
 
-Hemos dicho que este método se basa en la creación de estas dos llaves, bien, pues estas llaves tienen como función <u>encriptar</u> y <u>descencriptar</u> datos.
+Hemos dicho que este método se basa en la creación de estas dos llaves, bien, pues estas llaves tienen como función <u>encriptar</u> y <u>descencriptar</u> datos. Aunque una de ellas tiene una función más.
 
 Concretamente:
 
@@ -56,6 +56,15 @@ Básicamente si nosotros queremos enviarle un mensaje privado a Carlos, necesita
 por algo se llama "pública". Una vez que Carlos nos da su clave pública, nosotros podemos usarla para encriptar una información. Una vez encriptada, podremos pasarle el output
 (la info. encriptada) por un medio no seguro, ya que aunque sea interceptada, para ojos de quien no tenga la clave privada de Carlos, será una cadena con caracteres aleatorios y sin
 sentido.
+
+Otro ejemplo más. Por ejemplo queremos enviarle la contraseña del netflix a nuestro primo Ernesto, pero no queremos que nadie más la tenga, entonces para
+ellos vamos pedirle a Ernesto que genere sus claves y nos pase la pública. Cuando tengamos la pública, a través de unos cálculos que realizará nuestro
+ordenador, encriptará la contraseña de manera que de verse así `miContraseña1234Netflis` pasará a verse algo así `'��<;giHtvQ
+           SHm
+a�LAezqn�-[�}
+    J'fH=`
+Una vez esté encriptada podremos pasarle ese "texto" a Ernesto, y Ernesto con mi clave pública comprobará que yo soy efectivamente su primo. Entonces
+con su clave privada desencriptará la cadena esa obteniendo `miContraseña1234Netflis`.
 
 Es posible que pienses que es un proceso relativamente sencillo, sin embargo por detrás hay unas operaciones matemáticas bastante complejas que son las encargadas de generar las claves
 y garantizar la seguridad e integridad de nuestra información encriptada. A estas operaciones se les llama algoritmos.
@@ -89,13 +98,13 @@ parte la mantendrá segura.
 
 ### ¿Y si combinamos la criptografía asimétrica y la simétrica aprovechando las ventajas de cada uno?
 
-Pues así es, esto es posible y de hecho se usa bastante. Este método recibe el nombre de sistemas híbridos.
+Pues así es, esto es posible y de hecho se usa bastante. Este método recibe el nombre de sistema híbrido.
 
 Los sistemas de cifrado híbridos se basan en la combinación de criptografía asimétrica junto con la simétrica para proporcionar seguridad y eficiencia en la encriptación y transmisión
 de la información. En un sistema de estos, la criptografía asimétrica se usa para intercambiar una clave simétrica de manera segura, y la criptografía simétrica se utiliza para cifrar
 y descifrar la información de manera eficiente.
 
-La combinaciónd de estos dos tipos de cifrado aprovecha la seguridad de los sistemas asimétricos y la eficiencia de los sistemas simétricos.
+La combinación de estos dos tipos de cifrado aprovecha la seguridad de los sistemas asimétricos y la eficiencia de los sistemas simétricos.
 
 
 ### Usos de la criptografía asimétrica.
