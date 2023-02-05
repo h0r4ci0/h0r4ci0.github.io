@@ -67,7 +67,7 @@ a�LAezqn�-[�}
 Una vez esté encriptada podremos pasarle ese "texto" a Ernesto, y Ernesto con mi clave pública comprobará que yo soy efectivamente su primo. Entonces
 con su clave privada desencriptará la cadena esa obteniendo `miContraseña1234Netflis`.
 
-<center><img src="https://telegra.ph/file/b84a2bc23fe561757a419.png" width="400" alt="Esquema gráfico sobre el ejemplo"></center>
+<center><img src="https://telegra.ph/file/b84a2bc23fe561757a419.png" width="1000" alt="Esquema gráfico sobre el ejemplo"></center>
 
 Es posible que pienses que es un proceso relativamente sencillo, sin embargo por detrás hay unas operaciones matemáticas bastante complejas que son las encargadas de generar las claves
 y garantizar la seguridad e integridad de nuestra información encriptada. A estas operaciones se les llama algoritmos.
