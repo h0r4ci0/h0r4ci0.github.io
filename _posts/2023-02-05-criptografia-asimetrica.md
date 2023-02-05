@@ -1,5 +1,5 @@
 ---
-date: 2023-02-05T20:00:00.000Z
+date: 2023-02-05T09:00:00.000Z
 layout: post
 title: Criptografía asimétrica o criptografía de clave pública.
 subtitle: 'Entiende cómo funciona la criptografía asimétrica.'
@@ -66,6 +66,8 @@ a�LAezqn�-[�}
 
 Una vez esté encriptada podremos pasarle ese "texto" a Ernesto, y Ernesto con mi clave pública comprobará que yo soy efectivamente su primo. Entonces
 con su clave privada desencriptará la cadena esa obteniendo `miContraseña1234Netflis`.
+
+<img src="https://telegra.ph/file/416ab3773c813174cc8ba.png">
 
 Es posible que pienses que es un proceso relativamente sencillo, sin embargo por detrás hay unas operaciones matemáticas bastante complejas que son las encargadas de generar las claves
 y garantizar la seguridad e integridad de nuestra información encriptada. A estas operaciones se les llama algoritmos.
