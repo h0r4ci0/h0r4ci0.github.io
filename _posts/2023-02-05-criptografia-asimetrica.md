@@ -1,5 +1,5 @@
 ---
-date: 2023-02-05T09:00:00.000Z
+date: 2023-02-05T20:00:00.000Z
 layout: post
 title: Criptografía asimétrica o criptografía de clave pública.
 subtitle: 'Entiende cómo funciona la criptografía asimétrica.'
