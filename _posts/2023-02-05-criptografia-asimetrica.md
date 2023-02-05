@@ -6,9 +6,9 @@ subtitle: 'Entiende cómo funciona la criptografía asimétrica.'
 description: >-
   Funcionamiento y uso de las claves públicas y privadas.
 image: >-
-  https://windowsbulletin.com/wp-content/uploads/2020/05/Asymmetrical-Encryption.png
+  https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.alvarovf.com%2Fassets%2Fimages%2Fbanners%2Fcifrado.jpg
 optimized_image: >-
-  https://windowsbulletin.com/wp-content/uploads/2020/05/Asymmetrical-Encryption.png
+  https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.alvarovf.com%2Fassets%2Fimages%2Fbanners%2Fcifrado.jpg
 category: cybersecurity
 tags:
   - cryptography
