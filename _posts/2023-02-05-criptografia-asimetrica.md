@@ -1,5 +1,5 @@
 ---
-date: 2023-02-05T09:00:00.000Z
+date: 2023-02-05T20:00:00.000Z
 layout: post
 title: Criptografía asimétrica o criptografía de clave pública.
 subtitle: 'Entiende cómo funciona la criptografía asimétrica.'
@@ -17,7 +17,7 @@ author: horacio
 paginate: true
 ---
 
-Actualmente la mayor parte del tráfico de internet encriptado, utiliza este sistema de criptografía basado en clave pública y clave privada. Es más ahora mismo estás haciendo
+Actualmente la mayor parte del tráfico de internet encriptado, utiliza este sistema de criptografía basado en clave pública y clave privada. Es más, ahora mismo estás haciendo
 uso de este sistema al acceder a mi blog.
 
 ## ¿Qué es la criptografía asimétrica?
@@ -57,12 +57,13 @@ por algo se llama "pública". Una vez que Carlos nos da su clave pública, nosot
 (la info. encriptada) por un medio no seguro, ya que aunque sea interceptada, para ojos de quien no tenga la clave privada de Carlos, será una cadena con caracteres aleatorios y sin
 sentido.
 
-Otro ejemplo más. Por ejemplo queremos enviarle la contraseña del netflix a nuestro primo Ernesto, pero no queremos que nadie más la tenga, entonces para
+Otro ejemplo más. Imagina que queremos enviarle la contraseña del netflix a nuestro primo Ernesto, pero no queremos que nadie más la tenga, entonces para
 ellos vamos pedirle a Ernesto que genere sus claves y nos pase la pública. Cuando tengamos la pública, a través de unos cálculos que realizará nuestro
 ordenador, encriptará la contraseña de manera que de verse así `miContraseña1234Netflis` pasará a verse algo así `'��<;giHtvQ
            SHm
 a�LAezqn�-[�}
     J'fH=`
+
 Una vez esté encriptada podremos pasarle ese "texto" a Ernesto, y Ernesto con mi clave pública comprobará que yo soy efectivamente su primo. Entonces
 con su clave privada desencriptará la cadena esa obteniendo `miContraseña1234Netflis`.
 
