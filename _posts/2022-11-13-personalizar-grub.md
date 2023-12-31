@@ -78,7 +78,7 @@ Ahora solo tendrías que elegir que tema aplicar.
 En el caso de que quieras cambiar de tema o simplemente no utilizar ninguno de estos temas, tendrás que ejecutar el siguiente comando:
 
 ~~~bash
-sudo python3 darkmatter-theme.py --uinstall
+sudo python3 darkmatter-theme.py -u
 ~~~
 
 ---
@@ -122,7 +122,7 @@ Selección del tema:
 **2.- Desinstalación.**
 
 ~~~bash
-sudo python3 dedsec-theme.py --uinstall
+sudo python3 dedsec-theme.py -u
 ~~~
 
 ---
