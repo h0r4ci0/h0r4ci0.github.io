@@ -2,7 +2,8 @@ backend:
   name: github
   repo: h0r4ci0/h0r4ci0.github.io
   branch: master
-  base_url: https://api.github.com
+  base_url: https://decap-auth.horamalean.workers.dev
+  auth_endpoint: auth
 publish_mode: simple
 media_folder: "assets/img/uploads"
 collections:
