@@ -1,0 +1,153 @@
+media:
+  input: assets/img/uploads
+  output: /assets/img/uploads
+
+content:
+  - name: posts
+    label: Posts
+    path: _posts
+    type: collection
+    filename: "{year}-{month}-{day}-{title}.md"
+    fields:
+      - name: layout
+        label: Layout
+        type: hidden
+        default: post
+
+      - name: title
+        label: Title
+        type: text
+
+      - name: subtitle
+        label: Subtitle
+        type: text
+        required: false
+
+      - name: date
+        label: Date
+        type: datetime
+
+      - name: description
+        label: Description
+        type: text
+
+      - name: image
+        label: Featured Image
+        type: image
+        required: false
+
+      - name: optimized_image
+        label: Optimized Image
+        type: image
+        required: false
+
+      - name: category
+        label: Category
+        type: text
+
+      - name: tags
+        label: Tags
+        type: list
+
+      - name: author
+        label: Author
+        type: text
+
+      - name: paginate
+        label: Paginate
+        type: checkbox
+        default: false
+
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: pages
+    label: Pages
+    path: pages
+    type: collection
+    filename: "{slug}.md"
+    fields:
+      - name: layout
+        label: Layout
+        type: hidden
+        default: page
+
+      - name: title
+        label: Title
+        type: text
+
+      - name: date
+        label: Date
+        type: datetime
+
+      - name: permalink
+        label: Permalink
+        type: text
+        required: false
+
+      - name: description
+        label: Description
+        type: text
+        required: false
+
+      - name: tags
+        label: Tags
+        type: list
+        required: false
+
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: authors
+    label: Authors
+    path: _authors
+    type: collection
+    filename: "{name}.md"
+    fields:
+      - name: layout
+        label: Layout
+        type: hidden
+        default: author
+
+      - name: name
+        label: Name
+        type: text
+
+      - name: display_name
+        label: Display Name
+        type: text
+
+      - name: photo
+        label: Photo
+        type: image
+        required: false
+
+      - name: bio
+        label: Bio
+        type: textarea
+
+  - name: categories
+    label: Categories
+    path: category
+    type: collection
+    filename: "{slug}.md"
+    fields:
+      - name: layout
+        label: Layout
+        type: hidden
+        default: category
+
+      - name: title
+        label: Title
+        type: text
+
+      - name: slug
+        label: Slug
+        type: text
+
+      - name: description
+        label: Description
+        type: text
+        required: false
