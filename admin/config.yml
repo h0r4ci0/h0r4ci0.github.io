@@ -1,7 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: h0r4ci0/h0r4ci0.github.io
   branch: master
-publish_mode: editorial_workflow
+  base_url: https://api.github.com
+publish_mode: simple
 media_folder: "assets/img/uploads"
 collections:
   - label: "Categories"
