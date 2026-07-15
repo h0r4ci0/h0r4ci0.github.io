@@ -9,7 +9,7 @@ category: math-challenge
 tags: maths
 author: horacio
 paginate: "true"
-maths: "true"
+math: "true"
 ---
 # The Ultimate Mathematical Challenge
 
