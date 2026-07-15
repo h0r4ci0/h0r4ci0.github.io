@@ -7,4 +7,36 @@ $accentDark: #ffffff;
 $lightGray: #f2f2f2;
 $texts: #333333;
 
+callout {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    border-left: 6px solid;
+}
+
+.callout h4 {
+    margin-top: 0;
+    margin-bottom: .6rem;
+}
+
+.callout.answer {
+    background: #eef8ff;
+    border-color: #2f80ed;
+}
+
+.callout.solution {
+    background: #f3fff4;
+    border-color: #27ae60;
+}
+
+.callout.idea {
+    background: #fff9e6;
+    border-color: #f2c94c;
+}
+
+.callout.warning {
+    background: #fff2f2;
+    border-color: #eb5757;
+}
+
 @import "jekflix";
