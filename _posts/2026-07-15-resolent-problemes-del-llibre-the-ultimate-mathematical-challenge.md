@@ -44,6 +44,7 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 
 <div class="callout answer" markdown="1">
   #### ✅ Solució numèrica
+
   **10 furgonetes.**
 </div>
 
@@ -54,11 +55,11 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 
 Comencem considerant que cada furgoneta pot portar 12 tones. La firma necessita
 enviar 24 caixes de 5 tones cadascuna. En total, enviarà
-\(24\cdot5=120\) tones. Com que cada furgoneta pot transportar 12 tones,
+$24\cdot5=120$ tones. Com que cada furgoneta pot transportar 12 tones,
 necessitem
-\[
+$$
 \frac{120}{12}=10
-\]
+$$
 viatges.
 
 
@@ -93,10 +94,10 @@ viatges.
 #### 📖 Solució explicada
 
 
-Tenim un tauler de \(4\times4\), és a dir, un total de 16 caselles. Cada peça en forma de L n'ocupa 3, de manera que, com a màxim, en podríem col·locar
-\[
+Tenim un tauler de $4\times4$, és a dir, un total de 16 caselles. Cada peça en forma de L n'ocupa 3, de manera que, com a màxim, en podríem col·locar
+$$
 \left\lfloor\frac{16}{3}\right\rfloor = 5.
-\]
+$$
 En efecte, és possible aconseguir-ho col·locant les peces als extrems del tauler de manera que només quede una única casella lliure al centre, tal com es mostra en la figura següent.
 
 
@@ -120,7 +121,7 @@ En efecte, és possible aconseguir-ho col·locant les peces als extrems del taul
 - **Temps invertit:** 5 min
 - **Primer resolt:** 15 de juliol de 2026
 
-<div class="callout answer" markdown="1" markdown="1">
+<div class="callout answer" markdown="1">
 #### ✅ Solució numèrica
   <strong>55 unitats</strong>
 </div>
