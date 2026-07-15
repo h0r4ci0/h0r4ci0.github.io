@@ -28,8 +28,6 @@ Altra cosa a tindre en compte és la dificultat dels mateixos. Abans de cada exe
 
 El llibre es divideix per setmanes, amb un problema per a cada dia. En principi la graduació de la dificultat anirà pujant segons avancem, però pot haver-hi excepcions. Amb això crec que seria tot. Segons diu el llibre no es necessiten coneixements avançats ni res paregut. També hauríeu de ser capaços de fer-los sense ferramentes com calculadores o, evidentment, intel·ligència artificial. Dit això, comencem :3
 
-
-
 # Problemes
 
 ## Week 1
@@ -44,17 +42,16 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 - **Primer resolt:** 13 de juliol de 2026
 
 
-<div class="callout answer">
-  **✅ Solució numèrica**
-
-  <p><strong>10 furgonetes.</strong></p>
+<div class="callout answer" markdown="1">
+  #### ✅ Solució numèrica
+  **10 furgonetes.**
 </div>
 
-<div class="callout solution">
+<div class="callout answer" markdown="1">
 
-<h4>📖 Solució explicada</h4>
+#### 📖 Solució explicada
 
-<p>
+
 Comencem considerant que cada furgoneta pot portar 12 tones. La firma necessita
 enviar 24 caixes de 5 tones cadascuna. En total, enviarà
 \(24\cdot5=120\) tones. Com que cada furgoneta pot transportar 12 tones,
@@ -63,7 +60,7 @@ necessitem
 \frac{120}{12}=10
 \]
 viatges.
-</p>
+
 
 </div>
 ### 2. An L-ish puzzle
@@ -83,25 +80,25 @@ viatges.
     </figcaption>
 </figure>
 
-<div class="callout answer">
+<div class="callout answer" markdown="1">
 
-<h4>✅ Solució numèrica</h4>
+#### ✅ Solució numèrica
 
-<p><strong>5</strong></p>
+<strong>5</strong>
 
 </div>
 
-<div class="callout solution">
+<div class="callout answer" markdown="1">
 
-<h4>📖 Solució explicada</h4>
+#### 📖 Solució explicada
 
-<p>
+
 Tenim un tauler de \(4\times4\), és a dir, un total de 16 caselles. Cada peça en forma de L n'ocupa 3, de manera que, com a màxim, en podríem col·locar
 \[
 \left\lfloor\frac{16}{3}\right\rfloor = 5.
 \]
 En efecte, és possible aconseguir-ho col·locant les peces als extrems del tauler de manera que només quede una única casella lliure al centre, tal com es mostra en la figura següent.
-</p>
+
 
 </div>
 
@@ -123,16 +120,16 @@ En efecte, és possible aconseguir-ho col·locant les peces als extrems del taul
 - **Temps invertit:** 5 min
 - **Primer resolt:** 15 de juliol de 2026
 
-<div class="callout answer">
-<h4>✅ Solució numèrica</h4>
-  <p><strong>55 unitats</strong></p>
+<div class="callout answer" markdown="1" markdown="1">
+#### ✅ Solució numèrica
+  <strong>55 unitats</strong>
 </div>
 
-<div class="callout solution">
+<div class="callout answer" markdown="1">
 
-<h4>📖 Solució explicada</h4>
+#### 📖 Solució explicada
 
-<p>
+
 Hem de tindre en compte les desenes i les centenes. Vegem que el 0, 9 i 8 estan ocupats, aleshores hem de pujar fins a $0987xx$, on els últims dos nombres tampoc han de coincidir. Els dos nombres més pròxims que tenim lliures són el 1 i el 2, per tant: $098712$. Això són $55$ unitats.
-</p>
+
 </div>
