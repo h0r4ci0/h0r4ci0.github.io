@@ -24,7 +24,7 @@ math: "true"
 
 En aquesta entrada del blog aniré pujant les respostes a cadascun dels problemes plantejats en el llibre. Jo el vaig comprar al Science Museum de Londres, però el podeu trobar a pràcticament qualsevol llibreria i en unes búsquedes per Anna's Archive també el podreu trobar per descarregar-lo. De totes maneres, com que els problemes del llibre s'han tret de diferents competicions de matemàtiques organitzades pel *United Kingdom Mathematics Trust (UKMT)*, aquests són d'origen públic, per tant aniré ficant els enunciats de cada problema.
 
-Altra cosa a tindre en compte és la dificultat dels mateixos. Abans de cada exercici ficaré com de difícil m'ha paregut a mi, el temps que he invertit... així com altres aspectes rellevants. Després de ficar l'enunciat, ficaré dues respostes: la resposta numèrica directa i la meua resposta explicada.
+Altra cosa a tindre en compte és la dificultat dels mateixos. Abans de cada exercici ficaré com de difícil m'han paregut a mi, el temps que he invertit... així com altres aspectes rellevants. Després de ficar l'enunciat, ficaré dues respostes: la resposta numèrica directa i la meua resposta explicada.
 
 El llibre es divideix per setmanes, amb un problema per a cada dia. En principi la graduació de la dificultat anirà pujant segons avancem, però pot haver-hi excepcions. Amb això crec que seria tot. Segons diu el llibre no es necessiten coneixements avançats ni res paregut. També hauríeu de ser capaços de fer-los sense ferramentes com calculadores o, evidentment, intel·ligència artificial. Dit això, comencem :3
 
