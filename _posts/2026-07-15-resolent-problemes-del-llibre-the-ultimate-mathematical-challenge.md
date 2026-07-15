@@ -88,4 +88,3 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 > **📖 Solució explicada**
 > Hem de tindre en compte les desenes i les centenes. Vegem que el 0, 9 i 8 estan ocupats, aleshores hem depujar fins a $0987xx$, on els últims dos nombres tampoc han de coincidir. Els dos nombres més pròxims que tenim lliures són el 1 i el 2, per tant: $098712$. Això són $55$ unitats.
 
-&nbsp;
