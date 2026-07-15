@@ -43,9 +43,11 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 
 
 <div class="callout answer" markdown="1">
+
   #### ✅ Solució numèrica
 
-  **10 furgonetes.**
+  <strong>10 furgonetes.</strong>
+
 </div>
 
 <div class="callout answer" markdown="1">
