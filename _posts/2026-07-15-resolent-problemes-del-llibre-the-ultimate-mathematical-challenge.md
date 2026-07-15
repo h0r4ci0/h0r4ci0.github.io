@@ -9,6 +9,7 @@ category: math-challenge
 tags: maths
 author: horacio
 paginate: "true"
+maths: "true"
 ---
 # The Ultimate Mathematical Challenge
 
@@ -42,16 +43,29 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 - **Temps invertit:** 5 min
 - **Primer resolt:** 13 de juliol de 2026
 
-> [!NOTE]  
-> **✅ Solució numèrica**
->
-> 10 furgonetes.
 
-> [!NOTE]  
-> **📖 Solució explicada**
->
-> Comencem considerant que cada furgoneta pot portar 12 tonelades. La firma necessita enviar 24 caixes de 5 tonelades cadascuna. En total, enviarà $24 \cdot 5 = 120$ tonelades. Cada furgoneta pot portar 12T, aleshores necessitem $\frac{120}{12}=10$ furgonetes.
+<div class="callout answer">
+  **✅ Solució numèrica**
 
+  <p><strong>10 furgonetes.</strong></p>
+</div>
+
+<div class="callout solution">
+
+<h4>📖 Solució explicada</h4>
+
+<p>
+Comencem considerant que cada furgoneta pot portar 12 tones. La firma necessita
+enviar 24 caixes de 5 tones cadascuna. En total, enviarà
+\(24\cdot5=120\) tones. Com que cada furgoneta pot transportar 12 tones,
+necessitem
+\[
+\frac{120}{12}=10
+\]
+viatges.
+</p>
+
+</div>
 ### 2. An L-ish puzzle
 
 > Beatrix places copies of the L-shape shown on a $4 \times 4$ board so that each L-shape covers exactly three cells of the board.
@@ -69,14 +83,27 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
     </figcaption>
 </figure>
 
-> [!NOTE]  
-> **✅ Solució numèrica**
->
-> 5
+<div class="callout answer">
 
-> [!NOTE]  
-> **📖 Solució explicada**
-> Tenim un tauler de $4\times 4$. Això vol dir que tenim 16 caselles. La lletra L ocupa 3 caselles. En principi podríem arribar a col·locar com a molt 5 ($3\cdot 5 = 15$). Efectivament, si comencem a col·locar-les als extrems del tauler, podem arribar a omplir-lo deixant només un buit al centre.
+<h4>✅ Solució numèrica</h4>
+
+<p><strong>5</strong></p>
+
+</div>
+
+<div class="callout solution">
+
+<h4>📖 Solució explicada</h4>
+
+<p>
+Tenim un tauler de \(4\times4\), és a dir, un total de 16 caselles. Cada peça en forma de L n'ocupa 3, de manera que, com a màxim, en podríem col·locar
+\[
+\left\lfloor\frac{16}{3}\right\rfloor = 5.
+\]
+En efecte, és possible aconseguir-ho col·locant les peces als extrems del tauler de manera que només quede una única casella lliure al centre, tal com es mostra en la figura següent.
+</p>
+
+</div>
 
 <figure style="text-align: center;">
     <img src="/assets/img/uploads/Math Challenge/week 1/sol_problem2_week1.png"
@@ -96,12 +123,16 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 - **Temps invertit:** 5 min
 - **Primer resolt:** 15 de juliol de 2026
 
-> [!NOTE]  
-> **✅ Solució numèrica**
->
-> 55 unitats
+<div class="callout answer">
+<h4>✅ Solució numèrica</h4>
+  <p><strong>55 unitats</strong></p>
+</div>
 
-> [!NOTE]  
-> **📖 Solució explicada**
-> Hem de tindre en compte les desenes i les centenes. Vegem que el 0, 9 i 8 estan ocupats, aleshores hem de pujar fins a $0987xx$, on els últims dos nombres tampoc han de coincidir. Els dos nombres més pròxims que tenim lliures són el 1 i el 2, per tant: $098712$. Això són $55$ unitats.
+<div class="callout solution">
 
+<h4>📖 Solució explicada</h4>
+
+<p>
+Hem de tindre en compte les desenes i les centenes. Vegem que el 0, 9 i 8 estan ocupats, aleshores hem de pujar fins a $0987xx$, on els últims dos nombres tampoc han de coincidir. Els dos nombres més pròxims que tenim lliures són el 1 i el 2, per tant: $098712$. Això són $55$ unitats.
+</p>
+</div>
