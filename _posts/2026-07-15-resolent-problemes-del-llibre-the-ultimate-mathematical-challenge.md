@@ -9,7 +9,6 @@ category: math-challenge
 tags: maths
 author: horacio
 paginate: "true"
-math: "true"
 ---
 # The Ultimate Mathematical Challenge
 
@@ -22,11 +21,11 @@ math: "true"
     </figcaption>
 </figure>
 
-En aquesta entrada del blog aniré pujant les respostes a cadascú dels problemes plantejats en el llibre. Jo el vaig comprar al Science Museum de Londres, però el podeu trobar a pràcticament quasevol llibreria i en unes búsquedes per Anna's Archive també el podreu trobar per descarregar-ho. De totes maneres, com que els problemes del llibre s'han tret de diferents competicions de matemàtiques organitzades pel *United Kingdom Mathematics Trust (UKMT)*, aquests són d'origen públic, per tant aniré ficant els enunciats de cada problema.
+En aquesta entrada del blog aniré pujant les respostes a cadascun dels problemes plantejats en el llibre. Jo el vaig comprar al Science Museum de Londres, però el podeu trobar a pràcticament qualsevol llibreria i en unes búsquedes per Anna's Archive també el podreu trobar per descarregar-lo. De totes maneres, com que els problemes del llibre s'han tret de diferents competicions de matemàtiques organitzades pel *United Kingdom Mathematics Trust (UKMT)*, aquests són d'origen públic, per tant aniré ficant els enunciats de cada problema.
 
-Altra cosa a tindre en compte és la dificultat dels mateixos. Abans de cada exercici ficaré com de difícil m'ha paregut a mi, el temps que he invertit... així com altres aspectes rellevants. Després de ficar l'enunciat, ficaré dos respostes: la resposta numèrica directa i la meua resposta explicada.
+Altra cosa a tindre en compte és la dificultat dels mateixos. Abans de cada exercici ficaré com de difícil m'ha paregut a mi, el temps que he invertit... així com altres aspectes rellevants. Després de ficar l'enunciat, ficaré dues respostes: la resposta numèrica directa i la meua resposta explicada.
 
-El llibre es divideix per setmanes, amb un problema per a cada dia. En principi la graduació de la dificultat anirà pujant segons avancem, però pot haver-hi excepcions. Amb això crec que seria tot. Segons diu el llibre no es necessiten coneixements avançants ni res paregut. També hauríeu de ser capaços de fer-los sense ferramentes com calculadores o, evidentment, intel·ligència artificial. Dit això, comencem :3
+El llibre es divideix per setmanes, amb un problema per a cada dia. En principi la graduació de la dificultat anirà pujant segons avancem, però pot haver-hi excepcions. Amb això crec que seria tot. Segons diu el llibre no es necessiten coneixements avançats ni res paregut. També hauríeu de ser capaços de fer-los sense ferramentes com calculadores o, evidentment, intel·ligència artificial. Dit això, comencem :3
 
 
 
@@ -64,7 +63,7 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 <figure style="text-align: center;">
     <img src="/assets/img/uploads/Math Challenge/week 1/problem2_week1.png"
          alt="4x4 board and L-shape"
-         width="300">
+         width="400">
     <figcaption>
         Figura 2: 4x4 board and L-shape
     </figcaption>
@@ -82,7 +81,7 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 <figure style="text-align: center;">
     <img src="/assets/img/uploads/Math Challenge/week 1/sol_problem2_week1.png"
          alt="4x4 board and L-shape SOLUTION"
-         width="300">
+         width="400">
     <figcaption>
         Figura 3: 4x4 board and L-shape SOLUTION
     </figcaption>
@@ -104,5 +103,5 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 
 > [!NOTE]  
 > **📖 Solució explicada**
-> Hem de tindre en compte les desenes i les centenes. Vegem que el 0, 9 i 8 estan ocupats, aleshores hem depujar fins a $0987xx$, on els últims dos nombres tampoc han de coincidir. Els dos nombres més pròxims que tenim lliures són el 1 i el 2, per tant: $098712$. Això són $55$ unitats.
+> Hem de tindre en compte les desenes i les centenes. Vegem que el 0, 9 i 8 estan ocupats, aleshores hem de pujar fins a $0987xx$, on els últims dos nombres tampoc han de coincidir. Els dos nombres més pròxims que tenim lliures són el 1 i el 2, per tant: $098712$. Això són $55$ unitats.
 
