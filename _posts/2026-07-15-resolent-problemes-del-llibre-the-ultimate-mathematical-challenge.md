@@ -12,13 +12,16 @@ paginate: "true"
 ---
 # The Ultimate Mathematical Challenge
 
-![Portada del llibre](</assets/img/uploads/Math Challenge/book.jpg>)
+<figure style="text-align: center;">
+    <img src="/assets/img/uploads/Math Challenge/book.jpg"
+         alt="Portada del llibre"
+         width="300">
+    <figcaption>
+        Figura 1: Portada del llibre 'The Ultimate Mathematical Challenge'
+    </figcaption>
+</figure>
 
- Figura 1: Portada del llibre utilitzat per al repte.
-
- Figura 1: Portada del llibre 'The Ultimate Mathematical Challenge'
-
-En aquesta entrada del blog aniré pujant les respostes a cadascú dels problemes plantejats en el llibre de la figura 1. Jo el vaig comprar al Science Museum de Londres, però el podeu trobar a pràcticament quasevol llibreria i en unes búsquedes per Anna's Archive també el podreu trobar per descarregar-ho. Totes maneres, com que els problemes del llibre s'han tret  de diferents competicions de matemàtiques organitzades pel *United Kingdom Mathematics Trust (UKMT)*, aquestos són d'origen públic, per tant aniré ficant els enunciats de cada problema.
+En aquesta entrada del blog aniré pujant les respostes a cadascú dels problemes plantejats en el llibre. Jo el vaig comprar al Science Museum de Londres, però el podeu trobar a pràcticament quasevol llibreria i en unes búsquedes per Anna's Archive també el podreu trobar per descarregar-ho. De totes maneres, com que els problemes del llibre s'han tret de diferents competicions de matemàtiques organitzades pel *United Kingdom Mathematics Trust (UKMT)*, aquests són d'origen públic, per tant aniré ficant els enunciats de cada problema.
 
 Altra cosa a tindre en compte és la dificultat dels mateixos. Abans de cada exercici ficaré com de difícil m'ha paregut a mi, el temps que he invertit... així com altres aspectes rellevants. Després de ficar l'enunciat, ficaré dos respostes: la resposta numèrica directa i la meua resposta explicada.
 
@@ -57,7 +60,14 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 - **Temps invertit:** 5 min
 - **Primer resolt:** 14 de juliol de 2026
 
-![4x4 board and L-shape](</assets/img/uploads/Math Challenge/week 1/problem2_week1.png>)
+<figure style="text-align: center;">
+    <img src="/assets/img/uploads/Math Challenge/week 1/problem2_week1.png"
+         alt="4x4 board and L-shape"
+         width="300">
+    <figcaption>
+        Figura 2: 4x4 board and L-shape
+    </figcaption>
+</figure>
 
 > [!NOTE]  
 > **✅ Solució numèrica**
@@ -68,7 +78,14 @@ El llibre es divideix per setmanes, amb un problema per a cada dia. En principi 
 > **📖 Solució explicada**
 > Tenim un tauler de $4\times 4$. Això vol dir que tenim 16 caselles. La lletra L ocupa 3 caselles. En principi podríem arribar a col·locar com a molt 5 ($3\cdot 5 = 15$). Efectivament, si comencem a col·locar-les als extrems del tauler, podem arribar a omplir-lo deixant només un buit al centre.
 
-![](</assets/img/uploads/Math Challenge/week 1/sol_problem2_week1.png>)
+<figure style="text-align: center;">
+    <img src="/assets/img/uploads/Math Challenge/week 1/sol_problem2_week1.png"
+         alt="4x4 board and L-shape SOLUTION"
+         width="300">
+    <figcaption>
+        Figura 3: 4x4 board and L-shape SOLUTION
+    </figcaption>
+</figure>
 
 ### 3. Granny's meter
 
